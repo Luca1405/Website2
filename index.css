@@ -4,11 +4,13 @@ body {
 }
 /*Class*/
 .box{
-    font-size: 3em;
+    
     width: 100%;
     height: 20%;
     border-radius:10px;/*abrundung*/
     margin-right: 1%;
+    font-family: sans-serif;
+    font-weight:50%;
 }
 
 .layout{
@@ -48,16 +50,17 @@ body {
 #menu {/*class = box*/
     margin-top: -2.1%;
     background-color: rgb(244, 155, 46);
+    font-size: 3em;
 }
 
-#headerBlock{/*class = box*/
+#überBlocke{/*class = box*/
     background-color: rgb(244, 155, 46);
     height: 60px;
     margin-top: 6%;
     text-align: center;
-    
+    font-size: 3em;
+    font-family:"Silkscreen";
 }
-
 
 #render{/*class = box*/
     background-color: #212121;
@@ -67,40 +70,57 @@ body {
     width: 97.9%;
 }
 
-#container{/*class = box*/
+
+
+
+
+.container{/*class = box*/
     margin-top: 2%;
     background-color: #212121;
-    height: 1530px;
+    height: 1370px;
+    font-size: 1.8em;
+    border-radius:10px;
+    padding: 2%;
+
+    display: flex;
+    justify-content: space-between;/*platz zwischen den blocken */
+    flex-wrap: wrap;/*wenn kein platz mehr neue reihe */
+    align-content: start;
+    column-gap: 1em;
+    row-gap: 3%;
+    
 }
 #picOne{ /*class = layout */
-    display: inline-block;
-    margin-top: 3%;
+    margin-top: 0%;
+    margin: 0%;
+    padding: 1%;
     width: 38%;
+    height: 400px;
+    background-color: rgb(244, 155, 46);
 }
 
 #textOne{/*class = layout */
-    display: inline-block;
-    margin-left: 7%;
+    margin-top: 0%;
+    margin: 0%;
+    padding: 1%;
     width: 52%;
+    height: 400px;
+    background-color: rgb(244, 155, 46);
+    overflow: hidden;
 }
 
-#textTow{/*class = layout */
-    display: inline-block;
-    margin-top: 3%;/*passt nicht mehr ganz wenn websit kleiner */
-    width: 52%;
-}
 
-#picTow{ /*class = layout */
-    width: 38%;
-    margin-left: 7%;
-    display: inline-block;
-}
 
-#buyBox{/*class = box*/
+
+
+
+#buyBox{/*class = box                             muss noch richtig aussehen bei kleiner machungen*/
     background-color: #F0DDBD;
     padding: 1%;
     margin-top: 2%;
     height: 870px;
+    overflow-x:scroll;
+    overflow-y: hidden;
 }
 
 #buy{/*class = layout*/
@@ -108,9 +128,9 @@ body {
     margin-left: 5%;
     background-color: #212121;
     height: 790px;
-    display: inline-block;
-    flex-shrink: 0;/*Problem vieleicht*/
     padding: 1%;
+    margin-top: 0%;
+    text-align: center;
 }
 
 #infosBuy{/*class = box*/
@@ -118,11 +138,25 @@ body {
     font-size: 1em;
     background-color: rgb(244, 155, 46);
     height: 350px;
+    padding: 1%;
+    overflow: hidden;
+    
 }
+
+
+
+
+
+
 
 #footer{
     background-color: #212121;
     font-size: 1;
     height: 500px;
     margin-top: 8%;
+    padding: 2%;
+    font-size: 1.2em;
+    font-style: initial;
+    
 }
+
