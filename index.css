@@ -19,6 +19,18 @@ body {
     margin-top: 1%;
 }
 
+.burger-menu {
+    cursor: pointer;
+}
+
+.burger-line {
+
+    margin: 5px 0;
+    width: 25px;
+    height: 2px;
+   
+    background-color: #000000;
+}
 
 /*IDS*/
 #menu {/*class = box*/
@@ -33,6 +45,7 @@ body {
     text-align: center;
     
 }
+
 
 #render{/*class = box*/
     background-color: #F0DDBD;
