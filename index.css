@@ -121,26 +121,31 @@ body {
     height: 870px;
     overflow-x:scroll;
     overflow-y: hidden;
+    flex-wrap: nowrap;
 }
 
 #buy{/*class = layout*/
     width: 25%;
     margin-left: 5%;
     background-color: #212121;
-    height: 790px;
+    height: auto;
     padding: 1%;
     margin-top: 0%;
     text-align: center;
+    flex-wrap: nowrap;
 }
 
 #infosBuy{/*class = box*/
     margin-top: 116%;
     font-size: 1em;
     background-color: rgb(244, 155, 46);
-    height: 350px;
+    height: 45%;
     padding: 1%;
     overflow: hidden;
-    
+    flex-wrap: nowrap;
+    margin-right: 1%;
+    position: relative;
+    right: 1%;
 }
 
 
@@ -152,11 +157,12 @@ body {
 #footer{
     background-color: #212121;
     font-size: 1;
-    height: 500px;
+    height: auto;
     margin-top: 8%;
     padding: 2%;
     font-size: 1.2em;
     font-style: initial;
+    margin-bottom: 0%;
     
 }
 
