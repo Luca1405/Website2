@@ -21,13 +21,21 @@ body {
 
 #burgermenu {
     cursor: pointer;
-    height: 50px;
-    width: 8%;
-    margin-left: 90%;
-    margin-top: -11%;
-    background-color: black;
+    height: 60px;
+    width: 4%;
+    margin-left: 95%;
+    position: absolute;
+    top: 0.6%;
+    
 }
 
+#burgerline{
+    border-radius:12px;
+    margin-top: 10%;
+    background-color: rgb(0, 0, 0);
+    height: 10px;
+    width: 80%;
+}
 
 /*IDS*/
 #menu {/*class = box*/
