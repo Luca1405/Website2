@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(216, 193, 164);
+    margin: 0.2%;
+}
+/*Class*/
+.box{
+    font-size: 3em;
+    width: 100%;
+    height: 20%;
+    border-radius:10px;/*abrundung*/
+}
+
+.layout{
+    border-radius:20px;/*abrundung*/
+    font-size: 1em;
+    background-color: rgb(244, 155, 46);
+    height: 450px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+
+/*IDS*/
+#menu {/*class = box*/
+    margin-top: -2.1%;
+    background-color: rgb(101, 48, 36);
+}
+
+#headerBlock{/*class = box*/
+    background-color: rgb(101, 48, 36);
+    height: 60px;
+    margin-top: 6%;
+    text-align: center;
+    
+}
+
+#render{/*class = box*/
+    background-color: #F0DDBD;
+    height: 800px;
+}
+
+#container{/*class = box*/
+    margin-top: 2%;
+    background-color: #F0DDBD;
+    height: 1580px;
+}
+#picOne{ /*class = layout */
+    display: inline-block;
+    margin-top: 3%;
+    width: 38%;
+}
+
+#textOne{/*class = layout */
+    display: inline-block;
+    margin-left: 7%;
+    width: 52%;
+}
+
+#textTow{/*class = layout */
+    display: inline-block;
+    margin-top: 3%;/*passt nicht mehr ganz wenn websit kleiner */
+    width: 52%;
+}
+
+#picTow{ /*class = layout */
+    width: 38%;
+    margin-left: 7%;
+    display: inline-block;
+}
+
+#buyBox{/*class = box*/
+    background-color: #F0DDBD;
+    padding: 1%;
+    margin-top: 2%;
+    height: 870px;
+}
+
+#buy{/*class = layout*/
+    width: 25%;
+    margin-left: 5%;
+    background-color: #212121;
+    height: 790px;
+    display: inline-block;
+    flex-shrink: 0;/*Problem vieleicht*/
+    padding: 1%;
+}
+
+#infosBuy{/*class = box*/
+    margin-top: 93%;
+    font-size: 1em;
+    background-color: rgb(244, 155, 46);
+    height: 350px;
+}
+
+#footer{
+    background-color: rgb(101, 48, 36);
+    font-size: 1;
+    height: 500px;
+    margin-top: 8%;
+}
