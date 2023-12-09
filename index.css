@@ -19,18 +19,15 @@ body {
     margin-top: 1%;
 }
 
-.burger-menu {
+#burgermenu {
     cursor: pointer;
+    height: 50px;
+    width: 8%;
+    margin-left: 90%;
+    margin-top: -11%;
+    background-color: black;
 }
 
-.burger-line {
-
-    margin: 5px 0;
-    width: 25px;
-    height: 2px;
-   
-    background-color: #000000;
-}
 
 /*IDS*/
 #menu {/*class = box*/
