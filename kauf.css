@@ -1,0 +1,269 @@
+body {
+    background-color: rgb(216, 193, 164);
+    margin: 0.2%;
+}
+/*Class*/
+.box{
+    
+    width: 100%;
+    height: 20%;
+    border-radius:10px;/*abrundung*/
+    margin-right: 1%;
+    font-family: sans-serif;
+    font-weight:50%;
+}
+
+.layout{
+    border-radius:20px;/*abrundung*/
+    font-size: 1em;
+    background-color: rgb(244, 155, 46);
+    height: 450px;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.img-01{
+    width: 100%;
+    height: 800px;
+    border-radius:10px;
+}
+
+#burgermenu {
+    cursor: pointer;
+    height: 60px;
+    width: 4%;
+    margin-left: 95%;
+    position: absolute;
+    top: 2.2%;
+    
+}
+
+#burgerline{
+    border-radius:12px;
+    margin-top: 10%;
+    background-color: #212121;
+    height: 10px;
+    width: 80%;
+}
+
+/*IDS*/
+#menu {/*class = box*/
+    margin-top: -2.1%;
+    background-color: rgb(244, 155, 46);
+    font-size: 3em;
+}
+
+#überBlocke{/*class = box*/
+    background-color: rgb(244, 155, 46);
+    height: 60px;
+    margin-top: 6%;
+    text-align: center;
+    font-size: 3em;
+    font-family:"Silkscreen";
+}
+
+#render{/*class = box*/
+    background-color: #212121;
+    height: 800px;
+    overflow: hidden;
+    padding: 1%;
+    width: 97.9%;
+}
+
+
+
+
+
+.container{/*class = box*/
+    margin-top: 10%;
+    background-color: #212121;
+    height: 1370px;
+    font-size: 1.8em;
+    border-radius:20px;
+    padding: 2%;
+
+    display: flex;
+    justify-content: space-between;/*platz zwischen den blocken */
+    flex-wrap: wrap;/*wenn kein platz mehr neue reihe */
+    align-content: start;
+    column-gap: 1em;
+    row-gap: 3%;
+    
+}
+#picOne{ /*class = layout */
+    margin-top: 0%;
+    margin: 0%;
+    padding: 1%;
+    width: 38%;
+    height: 400px;
+    background-color: rgb(244, 155, 46);
+}
+
+#textOne{/*class = layout */
+    margin-top: 0%;
+    margin: 0%;
+    padding: 1%;
+    width: 52%;
+    height: 400px;
+    background-color: rgb(244, 155, 46);
+    overflow: hidden;
+}
+
+
+
+
+
+
+#buyBox{/*class = box                             muss noch richtig aussehen bei kleiner machungen*/
+    background-color: #F0DDBD;
+    padding: 1%;
+    margin-top: 2%;
+    height: 870px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+#buy{/*class = layout*/
+    width: 25%;
+    margin-left: 5%;
+    background-color: #212121;
+    height: auto;
+    padding: 1%;
+    margin-top: 0%;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+#infosBuy{/*class = box*/
+    margin-top: 116%;
+    font-size: 1em;
+    background-color: rgb(244, 155, 46);
+    height: 45%;
+    padding: 1%;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    margin-right: 1%;
+    position: relative;
+    right: 1%;
+}
+
+
+#BeschreibungProdukt{/*class = layout */
+    margin-top: 0%;
+    margin: 11%;
+    padding: 1%;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(244, 155, 46);
+    overflow: hidden;
+}
+
+#buypicture{/*class = layout*/
+    width: 90%;
+    margin-left: 30%;
+    background-color: #b70d0d;
+    height: 400%;
+    padding: 1%;
+    margin-top: 10%;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+#buypicture1{/*class = layout*/
+    width: 50%;
+    margin-left: 20%;
+    background-color: #b70d0d;
+    height: 400%;
+    padding: 1%;
+    margin-top: 10%;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+#buybutton{/*class = layout */
+    margin-top: 120%;
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    background-color: rgb(244, 155, 46);
+    overflow: hidden;
+    
+}
+
+#littlePictureBox{/*class = layout */
+    margin-top: 65%;
+    margin-left: 5%;
+    width: 90%;
+    height: 150px;
+    background-color: rgb(244, 155, 46);
+    overflow: hidden;
+    
+}
+
+#littlePicture1{/*class = layout */
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(66, 244, 46);
+    overflow: hidden;
+
+}
+
+#littlePicture2{/*class = layout */
+    margin-top: -14%;
+    margin-left: 30%;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(66, 244, 46);
+    overflow: hidden;
+
+}
+
+#littlePicture3{/*class = layout */
+    margin-top: -14%;
+    margin-left: 55%;
+    width: 15%;
+    height: 100px;
+    background-color: rgb(66, 244, 46);
+    overflow: hidden;
+
+}
+
+#mainPicture{/*class = layout */
+    margin-top: -80%;
+    margin-left: 10%;
+    width: 80%;
+    height: 450px;
+    background-color: rgb(96, 46, 244);
+    overflow: hidden;
+
+}
+
+#buyBox2{/*class = box                             muss noch richtig aussehen bei kleiner machungen*/
+    background-color: #000000;
+    padding: 1%;
+    margin-top: 2%;
+    height: 870px;
+    overflow-x:scroll;
+    overflow-y: hidden;
+    flex-wrap: nowrap;
+}
+
+
+
+#footer{
+    background-color: #212121;
+    font-size: 1;
+    height: auto;
+    margin-top: 8%;
+    padding: 2%;
+    font-size: 1.2em;
+    font-style: initial;
+    margin-bottom: 0%;
+    
+}
+
+
+    
