@@ -28,6 +28,25 @@ body {
     border-radius:10px;
 }
 
+.img-05{
+    border-radius: 10px;
+    width: 120%;
+    height: 430px;
+    
+}
+
+.img-08{
+    border-radius: 10px;
+    width: 150%;
+    height: auto;
+    
+}
+.img-07{
+    border-radius: 10px;
+    width: 123%;
+    height: 430px;
+}
+
 #burgermenu {
     cursor: pointer;
     height: 60px;
@@ -93,10 +112,10 @@ body {
 #picOne{ /*class = layout */
     margin-top: 0%;
     margin: 0%;
-    padding: 1%;
+    overflow: hidden;
     width: 38%;
-    height: 400px;
-    background-color: rgb(244, 155, 46);
+    height: auto;
+    background-color: #212121;
 }
 
 #textOne{/*class = layout */
@@ -122,6 +141,7 @@ body {
     overflow-x:scroll;
     overflow-y: hidden;
     flex-wrap: nowrap;
+    
 }
 
 #buy{/*class = layout*/
@@ -133,17 +153,28 @@ body {
     margin-top: 0%;
     text-align: center;
     flex-wrap: nowrap;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#buypicbox{
+    width: 100%;
+    margin: 0%;
+    height: 400px;
+    background-color: #212121;
+    overflow: hidden;
 }
 
 #infosBuy{/*class = box*/
-    margin-top: 116%;
+    margin-top: 16%;
     font-size: 1em;
     background-color: rgb(244, 155, 46);
-    height: 45%;
+    height: auto;
     padding: 1%;
     overflow: hidden;
     flex-wrap: nowrap;
     margin-right: 1%;
+    margin-bottom: 1%;
     position: relative;
     right: 1%;
 }
